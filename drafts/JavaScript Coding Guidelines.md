@@ -58,8 +58,7 @@ function doOneThing () {
 ```
 
 #### JavaScript peculiarities
-- Use `===` instead of `==` to test equality on singular values and
-  `_.equals` from Mori to compare data structures.
+- Use `===` instead of `==` to test equality on singular values and `_.equals` from Mori to compare data structures.
 - One `var` assignment per line except in the rare case of needing to initialize an empty variable
   ```
   var a = 1;
@@ -130,7 +129,7 @@ quite far in our application:
 - with functions, always return a new value instead of mutating an argument or
 a variable that is defined outside of the function scope.
 
-#### Purity, Idempotency
+#### Purity and Idempotency
 Idempotency means that a function always returns the same result when given the same
 arguments, regardless of when and how many times it is executed. Idemopotence is closely
 related to the notion of purity.
@@ -236,6 +235,8 @@ Map, reduce and filter are 3 functions that take a function and a collection and
   - Map returns the same number of values as it was given. Map takes a collection and runs each element of the collection through a function and returns a collection of the results..
   - Reduce returns one value from all the values it is given. Reduce accumulates a collection into a single value by calling the passed function each time with an accumulator and the next item from the collection.
   - Filter returns a subset of the collection of values it was given. Filter calls a function that returns true or false and collects each value that returned true.
+
+# TODO
 
 #### Laziness
 
