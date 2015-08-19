@@ -27,7 +27,7 @@ to focus on the complexity that is inherent to the problems we solve. The notion
 complexity" as opposed to "essential complexity" is discussed in Fred Brooks' famous 1986 [paper][no-silver-bullet]: No Silver Bullet. Accidental complexity is
 the complexity that we as programmers introduce while essential complexity is caused by the problem we are solving.
 
-The degree of easey is a subjective measurement based on familiarity and skillset. Simplicity is
+The degree of ease is a subjective measurement based on familiarity and skillset. Simplicity is
 an objective quality: the lack of complexity. This is a critical difference.
 We attempt to make our decisions &mdash; whether about the tools we use, the code we write,
 or the validity of the code we are reviewing &mdash; based on the objective
