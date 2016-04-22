@@ -1,0 +1,2 @@
+# The power of simple
+
